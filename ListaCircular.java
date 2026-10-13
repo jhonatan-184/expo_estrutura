@@ -1,15 +1,5 @@
-/**
- * Lista Circular Simple de clientes.
- *
- * Idea clave: en una lista simple normal el último nodo apunta a null.
- * Aquí el último nodo apunta de nuevo al PRIMERO, formando un círculo:
- *
- *     primero --> [B] --> [C] --> [D] = ultimo
- *        ^                           |
- *        +---------------------------+   (ultimo.siguiente == primero)
- */
-public class ListaCircular {
 
+public class ListaCircular {
     // ---------- Clase interna Nodo ----------
     private class Nodo {
         Cliente dato;
